@@ -16,12 +16,12 @@ $string = 'PHP'; // string(3) "PHP"
 $integer = 1; // int(1)
 $float = 99.99; // float(99.99)
 $boolean = true; //bool(true)
-$even_numbers=[2,4,6,8]; 
-$obj = (object) ['key' => 'value'];
+$even_numbers=[2,4,6,8];
+$object = (object) ['key' => 'value'];
 $null = NULL; // NULL
-$resource = fopen("example.txt", "r");
+// $resource = fopen("example.txt", "r");
 
-var_dump($null, $string, $integer, $float, $boolean, $even_numbers, $obj, $resource);
+var_dump($null, $string, $integer, $float, $boolean, $even_numbers, $object);
 
 
 /**
